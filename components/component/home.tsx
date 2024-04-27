@@ -109,7 +109,7 @@ export default function HomePrincipal() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-lg font-bold mb-4">Contact Us</h3>
+              <h3 className="text-lg font-bold mb-4">Contáctanos</h3>
               <p className="mb-2">
                 <svg
                   className="h-5 w-5 inline-block mr-2"
@@ -146,32 +146,32 @@ export default function HomePrincipal() {
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-bold mb-4">Quick Links</h3>
+              <h3 className="text-lg font-bold mb-4">Enlace Directo</h3>
               <ul className="space-y-2">
                 <li>
                   <a className="hover:text-gray-400" href="#">
-                    Home
+                    Inicio
                   </a>
                 </li>
                 <li>
                   <a className="hover:text-gray-400" href="#">
-                    Shop
+                    Tienda
                   </a>
                 </li>
                 <li>
                   <a className="hover:text-gray-400" href="#">
-                    About
+                    Sobre nosotros
                   </a>
                 </li>
                 <li>
                   <a className="hover:text-gray-400" href="#">
-                    Contact
+                    Contáctanos
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="text-lg font-bold mb-4">Follow Us</h3>
+              <h3 className="text-lg font-bold mb-4">Síguenos</h3>
               <div className="flex space-x-4">
                 <a className="hover:text-gray-400" href="#">
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
