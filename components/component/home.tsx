@@ -7,21 +7,21 @@ export default function HomePrincipal() {
       <header className="bg-[#003C43] text-white py-4 px-6 md:px-12">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <img alt="iPhone Ecommerce" className="h-8 mr-4" src="/placeholder.svg" />
-            <span className="font-bold text-lg">iPhone Ecommerce</span>
+            <img alt="logo" className="h-8 mr-4" src="/placeholder.svg" />
+            <span className="font-bold text-lg">iPhone tienda</span>
           </div>
           <nav className="hidden md:flex space-x-6">
             <a className="hover:text-gray-400" href="#">
-              Home
+              Inico
             </a>
             <a className="hover:text-gray-400" href="#">
-              Shop
+              Tienda
             </a>
             <a className="hover:text-gray-400" href="#">
-              About
+              Sobre nosotros
             </a>
             <a className="hover:text-gray-400" href="#">
-              Contact
+              Contáctanos
             </a>
           </nav>
           <button className="md:hidden">
@@ -42,10 +42,10 @@ export default function HomePrincipal() {
           <div className="container mx-auto px-6 md:px-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
-                <h1 className="text-4xl font-bold mb-4">Discover the Latest iPhone Models</h1>
+                <h1 className="text-4xl font-bold mb-4">Descubre nuestros los últimos modelos</h1>
                 <p className="mb-8">
-                  Explore our collection of the newest and most advanced iPhone models, designed to elevate your mobile
-                  experience.
+                  Explora nuestra colección de los más recientes modelos de iPhone y encuentra el que mejor se adapte a tus
+                  necesidades.
                 </p>
                 <a className="bg-[#77B0AA] hover:bg-[#E3FEF7] hover:text-black text-white font-bold py-3 px-6 rounded" href="#">
                   Comprar ahora
@@ -97,7 +97,9 @@ export default function HomePrincipal() {
             <h2 className="text-2xl font-bold mb-8 text-[#135d66]">Productos destacados</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {Array.from({ length: 3 }).map((_, i) => (
-                <CardUnitaria />
+                <div key={i}>
+                  <CardUnitaria />
+                </div>
               ))}
             </div>
           </div>
